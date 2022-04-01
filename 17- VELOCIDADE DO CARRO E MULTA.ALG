@@ -4,10 +4,10 @@ var
 inicio
       Escreval ("A que velocidade seu carro estava?")
       Leia (kmh)
-      se khm > 80 entao escreval ("vc")
-      multa <- 5
-      Escreval ("Você foi multado em ", multa, " reais")
-      senao
-      FimSe
+      multa <- (kmh - 80) * 5
+      Se kmh <= 80 entao
       Escreval ("Você não foi multado :D")
+      senao
+      Escreval ("Você foi multado em ", multa, " reais")
+      FimSe
 fimalgoritmo
