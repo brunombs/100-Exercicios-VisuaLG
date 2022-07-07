@@ -10,7 +10,7 @@ inicio
       dm <- m * 10
       cm <- m * 100
       mm <- m * 1000
-      Escreval ("A distância de", m, " mts equivale a:")
+      Escreval ("A distÃ¢ncia de", m, " mts equivale a:")
       Escreval (km, " kms")
       Escreval (hm, " hms")
       Escreval (dam, " dams")
