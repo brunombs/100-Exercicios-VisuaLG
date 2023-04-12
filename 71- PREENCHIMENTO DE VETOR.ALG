@@ -17,6 +17,6 @@ Inicio
 
    Escreva("Índices do vetor:")
    Para i de 0 ate 7 faca
-      Escreva(i, "  ")
+      Escreva(i, "   ")
    FimPara
 FimAlgoritmo
