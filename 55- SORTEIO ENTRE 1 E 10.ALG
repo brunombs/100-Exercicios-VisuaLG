@@ -1,28 +1,34 @@
-algoritmo "Sortear número entre 1 e 10"
-var
-   numsorteado, numpalpite, contador: inteiro
-inicio
+Algoritmo "Sortear número entre 1 e 10"
+
+Var
+   numsorteado, numpalpite, contador: Inteiro
+
+Inicio
       // numero_sorteado
       numsorteado <- randi(10) + 1
 
       // palpite
-      escreva("Digite um número entre 1 e 10: ")
-      leia(numpalpite)
+      Escreva("Digite um número entre 1 e 10: ")
+      Leia(numpalpite)
       contador <- 1
 
       // teste
-      enquanto (numpalpite <> numsorteado) faça
-               se (numpalpite < numsorteado) então
-                  escreval("Número baixo")
-               senão
-                    escreval("Número alto")
-               fimse
+      Enquanto (numpalpite <> numsorteado) E (contador <= 4) Faça
+               Se (numpalpite < numsorteado) Então
+                  Escreval("Número baixo")
+               Senão
+                    Escreval("Número alto")
+               FimSe
 
-               escreval("Digite um número entre 1 e 10: ")
-               leia(numpalpite)
+               Escreval("Digite um número entre 1 e 10: ")
+               Leia(numpalpite)
                contador <- contador + 1
-      fimenquanto
+      FimEnquanto
 
-      escreva("Parabéns, você acertou! Com ", contador, " palpites.")
+      Se (numpalpite = numsorteado) Então
+         Escreva("Parabéns, você acertou! Com ", contador, " palpites.")
+      Senão
+         Escreva("Você não conseguiu acertar o número sorteado. O número era: ", numsorteado)
+      FimSe
 
-fimalgoritmo
+FimAlgoritmo
