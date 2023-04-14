@@ -1,4 +1,4 @@
-<h1 style="color: #green;">VisuaLG Basics</h1>
+<h1>VisuaLG Basics</h1>
 
 <p><strong>Este repositório contém uma coleção de códigos escritos na pseudolinguagem do visuaLG. A pseudolinguagem do visuaLG é uma linguagem de programação fictícia, geralmente utilizada para fins didáticos, que é voltada para a lógica de programação e pode ser usada para aprender os conceitos básicos de programação de forma simples e intuitiva.
 
@@ -17,27 +17,16 @@ Os códigos neste repositório são exemplos simples de lógica de programação
 
 <h2>Contribuição</h2>
 <p>Agradeço pelo interesse em contribuir para o meu projeto! Aqui estão algumas maneiras pelas quais você pode ajudar:</p>
-<ul style="list-style-type: none;">
-  <li style="color: #28a745;">Reportar bugs através da criação de issues</li>
-  <li style="color: #17a2b8;">Sugerir melhorias ou novos recursos através de issues</li>
-  <li style="color: #dc3545;">Enviar pull requests com correções de bugs ou novas funcionalidades</li>
+<ul>
+  <li>Reportar bugs através da criação de issues</li>
+  <li>Sugerir melhorias ou novos recursos através de issues</li>
+  <li>Enviar pull requests com correções de bugs ou novas funcionalidades</li>
 </ul>
-
 <p>Agradeço antecipadamente suas contribuições!</p>
 
 
 <h2>Contato</h2>
 <ul>
-  <li>
-    Instagram: 
-    <a href="https://www.instagram.com/codingbybruno" target="_blank" style="color: #e83e8c;">
-      @codingbybruno
-    </a>
-  </li>
-  <li>
-    GitHub: 
-    <a href="https://github.com/brunombs" target="_blank" style="color: #6c757d;">
-      @brunombs
-    </a>
-  </li>
+  <li>Instagram: <a href="https://www.instagram.com/codingbybruno" target="_blank">@codingbybruno</a></li>
+  <li>GitHub: <a href="https://github.com/brunombs" target="_blank">@brunombs</a></li>
 </ul>
